@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #aed9e8;
+
+}
+.navbar-light,
+.navbar-toggler{
+  color: black;
+  border-color: black;
+}
+.navbar-light,
+.navbar-toggler:hover{
+  color: #020082;
+  border-color: #020082;
+}
+.navvy{
+  background-color: #46a29f;
+}
+p{
+  text-align: justify;
+}
+.card-body{
+  background-color: #46a29f;
+}
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+header {
+  background: no-repeat center center;
+  background-size: cover;
+  color: #66fcf1;
+
+}
+img{
+  padding: 5px;
+}
+
+.color-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 60vh;
+}
+
+.singleCol {
+  max-width: 750px;
+}
+
+footer {
+  background-color: #46a29f;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #66fcf1;
+}
+
+@media (max-width: 768px) {
+  .color-overlay {
+    min-height: 30vh;
+  }
+
+}
